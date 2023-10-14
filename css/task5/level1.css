@@ -1,0 +1,8 @@
+div{
+  padding: 40px;
+  margin: auto;
+  border: solid rgb(0, 0, 0) 20px;  
+  height: 150px;
+  width: 600px;
+  background-color: rgb(14, 68, 101)  ;
+}
