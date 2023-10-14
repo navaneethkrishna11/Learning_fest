@@ -1,0 +1,30 @@
+.q{
+    border: solid 2px black;
+    padding: 0.2cm;
+    margin: 5px;
+    outline-offset: 200px;
+}
+.a{
+    border: solid 2px black;
+    padding: 0.2cm;
+    margin: 5px;
+    outline-offset: 200px;
+}
+.b{
+    
+        border: solid 2px black;
+        padding: 0.2cm;
+        margin: 5px;
+        outline-offset: 200px;
+    
+}
+
+.c{
+    
+    border: solid 2px black;
+    padding: 0.2cm;
+    margin: 5px;
+    outline-width: 20px;
+    
+
+}
