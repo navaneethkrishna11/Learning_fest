@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Nivin pauly",
+      "age": 40,
+      "place": "Ernakulam",
+      "dob": "1984-11-10"
+    },
+    {
+      "name": "Tovino Thomas",
+      "age": 32,
+      "place": "Thrissur",
+      "dob": "1991-07-19"
+    },
+    {
+      "name": "Charlie",
+      "age": 41,
+      "place": "Kollam",
+      "dob": "1982-11-03"
+    },
+    {
+      "name": "Michael",
+      "age": 18,
+      "place": "malappuram",
+      "dob": "2005-05-08"
+    },
+    {
+      "name": "Tony stark",
+      "age": 59,
+      "place": "San Francisco",
+      "dob": "1994-09-26"
+    },
+    {
+      "name": "Surya",
+      "age": 36,
+      "place": "chennai",
+      "dob": "1987-12-30"
+    }
+ 
+  ]
