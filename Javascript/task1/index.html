@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Dice Roller</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #dice {
+      font-size: 3em;
+      cursor: pointer;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+<div id="dice">Click to roll</div>
+
+<script>
+  // Function to generate a random number between 1 and 6 (for a standard six-sided die)
+  function rollDice() {
+    return Math.floor(Math.random() * 6) + 1;
+  }
+
+  // Function to update the dice value and display it
+  function updateDice() {
+    const diceElement = document.getElementById('dice');
+    const diceValue = rollDice();
+    diceElement.textContent = diceValue;
+  }
+
+  // Add a click event listener to the dice element
+  document.getElementById('dice').addEventListener('click', updateDice);
+
+  // Initial roll when the page loads
+  updateDice();
+</script>
+
+</body>
+</html>
+
